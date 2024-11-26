@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabelInput</title>
+</head>
+
+<body>
+  <form>
+    <legend>Информация:</legend>
+    <fieldset><label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required><br>
+      <label for="comment">Comment:</label>
+      <textarea id="comment" name="comment" rows="2" cols="25"></textarea>
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="">Выберите страну:</option>
+        <option value="rus">Россия</option>
+        <option value="usa">США</option>
+        <option value="knd">Канада</option>
+      </select>
+      <button type="submit">Отправить</button>
+      <button type="reset">Сбросить</button>
+    </fieldset>
+  </form>
+</body>
+
+</html>
